@@ -1,0 +1,24 @@
+{
+    "packageinfo": {
+        "authors": [ 
+            { "name": "Andreas Reimann", "email": "business@areimann.de", "website": "https://areimann.de" } 
+        ],
+        "id": 3,
+        "packagename": "Audio Package",
+        "version": "0.0.1-alpha",
+        "resources": {
+            "modulespath": "/modules/package_3_audio_modules",
+            "assetspath": "/modules/package_3_audio_modules/assets",
+            "mediapath": "/modules/package_3_audio_modules/assets/media",
+            "datapath": "/modules/package_3_audio_modules/assets/data"
+        },
+        "type": "package"
+    },
+    "packagesecurity": {
+        "enabled": true,
+        "hash": "sha256",
+        "key": "",
+        "iv": "",
+        "salt": ""
+    }
+  }

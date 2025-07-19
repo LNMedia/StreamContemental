@@ -1,0 +1,24 @@
+{
+    "packageinfo": {
+        "authors": [ 
+            { "name": "Andreas Reimann", "email": "business@areimann.de", "website": "https://areimann.de" } 
+        ],
+        "id": 1,
+        "packagename": "Stream Package",
+        "version": "0.0.1-alpha",
+        "resources": {
+            "modulespath": "/modules/package_1_stream_modules",
+            "assetspath": "/modules/package_1_stream_modules/assets",
+            "mediapath": "/modules/package_1_stream_modules/assets/media",
+            "datapath": "/modules/package_1_stream_modules/assets/data"
+        },
+        "type": "package"
+    },
+    "packagesecurity": {
+        "enabled": true,
+        "hash": "sha256",
+        "key": "",
+        "iv": "",
+        "salt": ""
+    }
+}

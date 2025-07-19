@@ -1,0 +1,1 @@
+require("dotenv").config({path:"./../.env"});const mysql=require("mysql2/promise"),createPool=e=>mysql.createPool({host:process.env.DB_HOST,user:process.env.DB_USER,password:process.env.DB_PASSWORD,database:e,waitForConnections:!0,connectionLimit:10,queueLimit:0});module.exports={project:createPool(process.env.DB_NAME_PROJECT)};

@@ -1,0 +1,24 @@
+{
+    "packageinfo": {
+        "authors": [ 
+            { "name": "Andreas Reimann", "email": "business@areimann.de", "website": "https://areimann.de" } 
+        ],
+        "id": 0,
+        "packagename": "Main Package",
+        "version": "0.0.1-alpha",
+        "resources": {
+            "modulespath": "/modules/main_package",
+            "assetspath": "/modules/main_package/assets",
+            "mediapath": "/modules/main_package/assets/media",
+            "datapath": "/modules/main_package/assets/data"
+        },
+        "type": "package"
+    },
+    "packagesecurity": {
+        "enabled": true,
+        "hash": "sha256",
+        "key": "",
+        "iv": "",
+        "salt": ""
+    }
+}

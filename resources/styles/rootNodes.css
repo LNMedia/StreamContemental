@@ -1,0 +1,107 @@
+html.darkMode {
+    /* 🌑 Basisfarben */
+    --background-node: #1c1c1e; /* leicht aufgehelltes Schwarz mit Tiefgang */
+    --background-soft-node: #222326;
+    --background-elevated-node: #2a2b2f;
+    --foreground-node: #e0e0e0;
+
+    /* 🎨 Primärfarben (Cyan/Blau aus Logo) */
+    --primary-node: #3ae0f6;
+    --primary-hover-node: #2ac2d6;
+    --primary-active-node: #1a9eb1;
+
+    /* 🌈 Sekundäre & Verlauffarben */
+    --secondary-cyan: #20f0d0;
+    --secondary-blue: #4264f6;
+    --secondary-violet: #8e30f0;
+    --secondary-magenta: #ff3ab3;
+    --secondary-purple: #6f38db;
+
+    /* 🎯 Akzentfarben */
+    --accent-node: #e84ac0;
+    --accent-hover-node: #cf3ead;
+    --accent-active-node: #a4328d;
+
+    /* 🪄 Verlaufsstile */
+    --brand-gradient: linear-gradient(90deg, #3ae0f6, #20f0d0, #8e30f0, #e84ac0);
+    --button-gradient: linear-gradient(to right, #3ae0f6, #e84ac0);
+
+    /* 🧾 Textfarben */
+    --text-default-node: #e0e0e0;
+    --text-muted-node: #bbbbbb;
+    --text-disabled-node: #888888;
+    --text-inverted-node: #121212;
+    --text-accent-node: var(--accent-node);
+    --text-heading-node: #ffffff;
+
+    /* 🧩 Ränder & Abgrenzung */
+    --border-node: #3a3a3a;
+    --border-subtle: #2b2b2b;
+    --border-strong: #4a4a4a;
+
+    /* 🧱 Karten & Oberflächen */
+    --card-background-node: #26272b;
+    --card-border-node: #313236;
+    --card-shadow-node: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+    /* 📥 Input-Felder */
+    --input-background: #1f1f21;
+    --input-border: #2e2e2e;
+    --input-placeholder: #777777;
+    --input-text: #f0f0f0;
+
+    /* 🟦 Buttons */
+    --button-primary-background: var(--primary-node);
+    --button-primary-hover: var(--primary-hover-node);
+    --button-primary-text: #000000;
+
+    --button-accent-background: var(--accent-node);
+    --button-accent-hover: var(--accent-hover-node);
+    --button-accent-text: #000000;
+
+    --button-neutral-background: #3a3a3a;
+    --button-neutral-hover: #4a4a4a;
+    --button-neutral-text: #ffffff;
+
+    /* 🧷 Badges & Chips */
+    --badge-success: #2ecc71;
+    --badge-warning: #f1c40f;
+    --badge-error: #e74c3c;
+    --badge-info: var(--primary-node);
+
+    --chip-background: #2c2c2c;
+    --chip-text: #dddddd;
+    --chip-border: #444;
+
+    /* 🔮 Modal / Overlay */
+    --modal-background-node: #2b2b2d;
+    --modal-border-node: #39393b;
+    --modal-shadow-node: 0 8px 24px rgba(0, 0, 0, 0.6);
+
+    /* 🧱 Navigation & Header */
+    --header-background-node: #202022;
+    --header-border-node: #2c2c2c;
+    --header-text-node: #f1f1f1;
+    --header-shadow-node: 0 4px 8px rgba(0, 0, 0, 0.4);
+
+    --nav-background-node: #252528;
+    --nav-border-node: #303030;
+    --nav-text-node: var(--primary-node);
+    --nav-hover-node: var(--primary-hover-node);
+    --nav-shadow-node: 0px 4px 8px rgba(0, 0, 0, 0.4);
+
+    --footer-background-node: #1a1a1c;
+    --footer-border-node: #292929;
+    --footer-text-node: #bfbfbf;
+
+    /* 🧭 Scrollbar */
+    --scrollbar-track: #1e1e1e;
+    --scrollbar-thumb: #444;
+    --scrollbar-thumb-hover: #666;
+
+    /* ⚠️ Statusfarben */
+    --success-node: #22c55e;
+    --error-node: #e63946;
+    --warning-node: #eab308;
+    --info-node: var(--primary-node);
+}

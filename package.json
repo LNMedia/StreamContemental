@@ -1,0 +1,39 @@
+{
+  "name": "streamcontemental",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "electron .",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "electron": "^35.2.1",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7",
+    "streamcontemental": "file:",
+    "twitch-auth": "^4.6.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "electron": "^29.0.0",
+    "multer": "^2.0.1"
+  }
+}
